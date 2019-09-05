@@ -1,6 +1,6 @@
-package pl.martajastrzabek.TaxCalculator;
+package pl.martajastrzabek.taxcalculator;
 
-import pl.martajastrzabek.TaxCalculator.service.TaxCalculatorService;
+import pl.martajastrzabek.taxcalculator.service.TaxCalculatorService;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

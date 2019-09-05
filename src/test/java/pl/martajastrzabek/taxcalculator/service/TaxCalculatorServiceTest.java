@@ -1,8 +1,6 @@
-package pl.martajastrzabek.TaxCalculator.service;
-
+package pl.martajastrzabek.taxcalculator.service;
 
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;

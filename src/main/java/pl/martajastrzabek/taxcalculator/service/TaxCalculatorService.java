@@ -1,6 +1,4 @@
-package pl.martajastrzabek.TaxCalculator.service;
-
-import java.util.Scanner;
+package pl.martajastrzabek.taxcalculator.service;
 
 public class TaxCalculatorService {
     private static final int BASIC_TAX_RATE = 18;
@@ -24,7 +22,7 @@ public class TaxCalculatorService {
             tax = HIGHER_TAX_BASE + ((income - BASIC_INCOME_LIMIT) * HIGHER_TAX_RATE / 100);
         }
 
-        double roundedTax = Math.floor(tax);
+        double roundedTax = Math.round(tax);
         return roundedTax;
     }
 }
